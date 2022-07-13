@@ -6,6 +6,7 @@ dfc_project_main_folder="."
 
 # Header of script
 . $dfc_project_main_folder/Scripts/Dependencies/dfc-script-header.sh
+. $dfc_project_main_folder/Scripts/Dependencies/dfc-check-network.sh
 
 # General process
 message_info "$(date '+%H:%M:%S (%d/%m/%Y)')" 2
